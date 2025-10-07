@@ -8,16 +8,19 @@ Session-3: LTIM_Spark_DataWareHoushing_S3_MCQ
 COD QB Added: LTIM_Datawarehousing_QB
 
 Week-2 Day-2 Session-1: 
-PPT:
-MCQ: 
-COD:
+PPT: Teaching_Introduction_to_DataWarehousing
+MCQ: KCQ_Introduction_to_DataWarehousing
+COD - 1: Practice_Datawarhousing_Q1
+COD - 2: Practice_Datawarhousing_Q2
+COD - 3: Practice_Datawarhousing_Q3
 
 Week-2 Day-2 Session-2:
-PPT:
-MCQ:
-COD:
+PPT: Teaching_DataWarehousing_Concepts
+MCQ: KCQ_DataWarehousing_Concepts
+COD - 1: Practice_Datawarehousing_Concepts_Q1
+COD - 2: Practice_Datawarehousing_Concepts_Q2
+COD - 3: Practice_Datawarehousing_Concepts_Q3
 
 Week-2 Day-2 Session-3:
-PPT:
-MCQ:
-COD:
+PPT: Teaching_Cloud_DataWarehousing
+MCQ: KCQ_Cloud_DataWarehousing
