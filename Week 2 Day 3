@@ -1,29 +1,29 @@
-PPT Content Bank: 
+PPT Content Bank: LTIM_Spark_AWS_Batch_2_CB
 
 MCQ QB Added: 
 Session-1: LTIM_DataModeling_S1_MCQ_QB
-Session-2: 
-Session-3: 
+Session-2: LTIM_DataModeling_S2_MCQ_QB
+Session-3: LTIM_DataModeling_S3_MCQ_QB
 
 COD QB Added: LTIM_DataModelingFundamentals_QB
 
 Week-2 Day-3 Session-1: 
-PPT: 
+PPT: Teaching_Introduction_DataModeling
 MCQ: KCQ_Intoduction_DataModeling
 COD - 1: Practice_DataModelingFundamentals_Q1
 COD - 2: Practice_DataModelingFundamentals_Q2
 COD - 3: Practice_DataModelingFundamentals_Q3
 
 Week-2 Day-3 Session-2:
-PPT: 
-MCQ: 
+PPT: Teaching_SCD_and_DataIntegrity
+MCQ: KCQ_SCD_and_DataIntegrity
 COD - 1: Practice_AdvancedModeling_Q1
 COD - 2: Practice_AdvancedModeling_Q2
 COD - 3: Practice_AdvancedModeling_Q3
 
 Week-2 Day-3 Session-3:
-PPT: 
-MCQ: 
+PPT: Teaching_Introduction_DataPipelines
+MCQ: KCQ_Introduction_Data_Pipelines
 COD - 1: Practice_ETL_Process_Q1
 COD - 2: Practice_ETL_Process_Q2
 COD - 3: Practice_ETL_Process_Q3
