@@ -1,29 +1,26 @@
 PPT Content Bank: LTIM_Spark_AWS_Batch_2_CB
 
 MCQ QB Added: 
-Session-1: 
-Session-2: 
-Session-3: 
+Session-1: LTIM_Spark_Overview_MCQ_QB
+Session-2: LTIM_RDD_Intro_MCQ_QB
+Session-3: LTIM_RDD_Operations_MCQ_QB
 
-COD QB Added: 
+COD QB Added: LTIM_RDD_QB
 
 Week-5 Day-1 Session-1: 
 PPT: 
-MCQ: 
-COD - 1: 
-COD - 2: 
-COD - 3: 
+MCQ: KCQ_Spark_Overview
 
 Week-5 Day-1 Session-2:
 PPT: 
-MCQ: 
-COD - 1: 
-COD - 2: 
-COD - 3: 
+MCQ: KCQ_RDD_Introduction
+COD - 1: Practice_RDD_Basic_Q1
+COD - 2: Practice_RDD_Basic_Q1
+COD - 3: Practice_RDD_Basic_Q3
 
 Week-5 Day-1 Session-3:
 PPT: 
-MCQ: 
-COD - 1: 
-COD - 2: 
-COD - 3: 
+MCQ: KCQ_RDD_Operations
+COD - 1: Practice_RDD_Operations_Q1
+COD - 2: Practice_RDD_Operations_Q2
+COD - 3: Practice_RDD_Operations_Q3
