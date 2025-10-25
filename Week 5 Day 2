@@ -1,29 +1,29 @@
 PPT Content Bank: LTIM_Spark_AWS_Batch_2_CB
 
 MCQ QB Added: 
-Session-1: LTIM_Dataframes_Intro_MCQ_QB
-Session-2: LTIM_DataFrames_Transition_MCQ_QB
+Session-1: 
+Session-2: 
 Session-3: 
 
-COD QB Added: 
+COD QB Added: LTIM_PySpark_DataFrame_QB
 
 Week-5 Day-2 Session-1: 
-PPT: 
-MCQ: 
+PPT: Teaching_Transitioning_to_DataFrames
+MCQ:
 COD - 1: 
 COD - 2: 
 COD - 3: 
 
 Week-5 Day-2 Session-2:
-PPT: 
+PPT: Teaching_Working_with_DataFrames_and_Aggregations
 MCQ: 
-COD - 1: 
-COD - 2: 
-COD - 3: 
+COD - 1: Practice_Working_with_DataFrames_Q1
+COD - 2: Practice_Working_with_DataFrames_Q2
+COD - 3: Practice_Working_with_DataFrames_Q3
 
 Week-5 Day-2 Session-3:
-PPT: 
+PPT: Teaching_DataFrame_Operations_and_Spark_SQL
 MCQ: 
-COD - 1: 
-COD - 2: 
-COD - 3: 
+COD - 1: Practice_Spark_SQL_Q1
+COD - 2: Practice_Spark_SQL_Q2
+COD - 3: Practice_Spark_SQL_Q3
