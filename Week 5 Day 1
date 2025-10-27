@@ -8,18 +8,18 @@ Session-3: LTIM_RDD_Operations_MCQ_QB
 COD QB Added: LTIM_RDD_QB
 
 Week-5 Day-1 Session-1: 
-PPT: 
+PPT:Teaching_Spark_Setup_and_Environment_Overview 
 MCQ: KCQ_Spark_Overview
 
 Week-5 Day-1 Session-2:
-PPT: 
+PPT:Teaching_Understanding_RDDs__The_Foundation 
 MCQ: KCQ_RDD_Introduction
 COD - 1: Practice_RDD_Basic_Q1
 COD - 2: Practice_RDD_Basic_Q1
 COD - 3: Practice_RDD_Basic_Q3
 
 Week-5 Day-1 Session-3:
-PPT: 
+PPT:Teaching_Exploring_RDD_Operations_and_Performance 
 MCQ: KCQ_RDD_Operations
 COD - 1: Practice_RDD_Operations_Q1
 COD - 2: Practice_RDD_Operations_Q2
