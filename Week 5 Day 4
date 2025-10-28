@@ -5,25 +5,22 @@ Session-1:
 Session-2: 
 Session-3: 
 
-COD QB Added: 
+COD QB Added: LTIM_Spark_Streaming_QB
 
 Week-5 Day-3 Session-1: 
 PPT: Teaching_Introduction_to_Spark_Streaming
 MCQ: KCQ_Introduction_to_Spark_Streaming
-COD - 1: 
-COD - 2: 
-COD - 3: 
 
 Week-5 Day-3 Session-2:
 PPT: Teaching_Spark_Streaming_Architecture
 MCQ: KCQ_DStreams_and_Structured_Streaming
-COD - 1: 
-COD - 2: 
-COD - 3: 
+COD - 1: Practice_Spark_Streaming_Q1
+COD - 2: Practice_Spark_Streaming_Q2
+COD - 3: Practice_Spark_Streaming_Q3
 
 Week-5 Day-3 Session-3:
 PPT: Teaching_Data_Streaming_and_processing
 MCQ: KCQ_Fault_Tolerance_and_Kafka_Integration
-COD - 1: 
-COD - 2: 
-COD - 3: 
+COD - 1: Practice_Kafka_Streaming_Q1
+COD - 2: Practice_Kafka_Streaming_Q2
+COD - 3: Practice_Kafka_Streaming_Q3
