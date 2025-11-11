@@ -5,25 +5,106 @@ Session-1: LTIM_Introduction_Redshift_MCQ_QB
 Session-2: LTIM_Redshift_Architecture_MCQ_QB
 Session-3: LTIM_Redshift_Data_Loading_MCQ_QB
 
-COD QB Added: 
+COD QB Added: LTIM_Redshift_Data_Loading_QB
 
 Week-6 Day-6 Session-1: 
 PPT: Teaching_Redshift_Introduction
 MCQ: KCQ_Redshift_Introduction
-COD - 1: 
-COD - 2: 
-COD - 3: 
 
 Week-6 Day-6 Session-2:
 PPT: Teaching_Redshift_Architecture
 MCQ: KCQ_Redshift_Architecture
-COD - 1: 
-COD - 2: 
-COD - 3: 
 
 Week-6 Day-6 Session-3:
 PPT: Teaching_Redshift_Data_Loading
 MCQ: KCQ_Redshift_Data_Loading
-COD - 1: 
-COD - 2: 
-COD - 3: 
+COD - 1: Practice_Data_Loading_Q1
+COD - 2: Practice_Data_Loading_Q2
+COD - 3: Practice_Data_Loading_Q3
+
+
+Week-6 Day-6 Session-3:
+
+Question-2 Solution:
+
+CREATE TABLE public.sales_data (
+    sale_id INT,
+    product_id INT,
+    customer_id INT,
+    quantity INT,
+    price NUMERIC(10,2),
+    sale_date DATE,
+    region VARCHAR(50)
+);
+
+COPY public.sales_data
+FROM 's3://lab-rawzone-083617909228/sales/'
+IAM_ROLE 'arn:aws:iam::083617909228:role/service-role/AmazonRedshift-CommandsAccessRole-20251111T170738'
+CSV
+IGNOREHEADER 1
+REGION 'us-east-2';TRUNCATE TABLE public.sales_data;
+
+TRUNCATE TABLE public.sales_data;
+
+COPY public.sales_data
+FROM 's3://lab-rawzone-083617909228/sales/'
+IAM_ROLE 'arn:aws:iam::083617909228:role/service-role/AmazonRedshift-CommandsAccessRole-20251111T170738'
+CSV
+IGNOREHEADER 1
+COMPUPDATE OFF
+REGION 'us-east-2';
+
+----------------------------------------------
+
+Question-3 Solution:
+
+COPY public.sales_data
+FROM 's3://lab-rawzone-083617909228/sales_data_error/sales_data_with_errors.csv'
+IAM_ROLE 'arn:aws:iam::083617909228:role/service-role/AmazonRedshift-CommandsAccessRole-20251111T170738'
+CSV
+IGNOREHEADER 1
+DELIMITER ','
+FILLRECORD
+ACCEPTINVCHARS
+MAXERROR 20
+REGION 'us-east-2';
+
+SELECT * 
+FROM svv_tables 
+WHERE table_name ILIKE '%error%';
+
+
+SELECT column_name, data_type
+FROM information_schema.columns
+WHERE table_schema = 'pg_catalog'
+  AND table_name = 'sys_load_error_detail';
+
+SELECT 
+    database_name,
+    file_name,
+    line_number,
+    error_code,
+    error_message,
+    column_name,
+    column_type,
+    column_length,
+    start_time
+FROM pg_catalog.sys_load_error_detail
+ORDER BY start_time DESC
+LIMIT 20;
+
+UNLOAD ('
+  SELECT 
+      database_name,
+      file_name,
+      line_number,
+      error_message,
+      column_name,
+      start_time
+  FROM pg_catalog.sys_load_error_detail
+  ORDER BY start_time DESC
+')
+TO 's3://lab-rawzone-083617909228/manual_export'
+IAM_ROLE 'arn:aws:iam::083617909228:role/service-role/AmazonRedshift-CommandsAccessRole-20251111T170738'
+CSV
+ALLOWOVERWRITE;
